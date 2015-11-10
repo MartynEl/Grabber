@@ -1,0 +1,18 @@
+{
+    "amazon": {
+        "url": "http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=",
+        "firstItem": "ul[id*='result'] li[id='result_1'] a",
+        "title": "span[id='productTitle']",
+        "price": "span[id='priceblock_ourprice']",
+        "image": "div[id='imgTagWrapperId'] img",
+        "details": "div[id='feature-bullets'] ul li span"
+    },
+    "amazon-2": {
+        "url": "http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=",
+        "firstItem": "ul[id*='result'] li a",
+        "title": "span[id='productTitle']",
+        "price": "span[id='priceblock_ourprice']",
+        "image": "div[id='imgTagWrapperId'] img",
+        "details": "div[id='feature-bullets'] ul li span"
+    }
+}
