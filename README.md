@@ -6,7 +6,7 @@
 **Assumption**: Result list is returned from **ul[id*='result'] > li** quary and each item contains anchor with useful *href* and engine can, by loading the linked location, get title, price, description etc.
 
 **Result**: Partially True. DOM structure is different between **smartphone** and **apple** search results.
-So, I've changed query to *"ul[id*='result'] li[id='result_1'] a"*.
+So, I've changed query to **"ul[id*='result'] li[id='result_1'] a"**.
 
 Moreover, I configured list of queris in separate file **config.json** where I can adjust queries for title, price, etc. **for each** grabbing target.
 
