@@ -8,6 +8,6 @@
 **Result**: Partially True. DOM structure is different between **smartphone** and **apple** search results.
 So, I've changed query to **"ul[id*='result'] li[id='result_1'] a"**.
 
-Moreover, I configured list of queris in separate file **config.json** where I can adjust queries for title, price, etc. **for each** grabbing target.
+Moreover, I configured list of queris in the separate file **config.json** where I can adjust queries for title, price, etc. **for each** grabbing target.
 
 
